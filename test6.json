@@ -1,0 +1,60 @@
+{
+  "type": "view",
+  "name": "ComplexView",
+  "subviews": [
+  {
+    "type": "imageview",
+    "name": "iconView",
+    "layout": {
+      "left": 20,
+      "centerY": 0,
+      "width": 100,
+      "height": 100,
+      "top":20
+    },
+    "params": {
+      "color": "#328520"
+    }
+  },
+  {
+    "type": "label",
+    "name": "label",
+    "layout": {
+      "left": 20,
+      "top": 20
+    },
+    "params": {
+      "text": "123",
+      "textSize": 20,
+      "color": "#ff0000"
+    }
+  },
+  {
+    "type": "view",
+    "name": "view1",
+    "item": 0,
+    "layout": {
+      "left": 20,
+      "bottom": 20,
+      "width": 60,
+      "height": 10
+    },
+    "params": {
+      "color": "#00ffff"
+    }
+  },
+  {
+    "type": "view",
+    "name": "view2",
+    "layout": {
+      "left": 20,
+      "bottom": 20,
+      "width": 60,
+      "height": 60
+    },
+    "params": {
+      "color": "#88ffff"
+    }
+  }
+  ]
+}

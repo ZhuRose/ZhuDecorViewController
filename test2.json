@@ -1,0 +1,21 @@
+{
+  "type": "cell",
+  "name": "LabelCell2",
+  "subviews": [
+  {
+    "type": "label",
+    "name": "mLabel",
+    "layout": {
+      "centerX": 0,
+      "centerY": 0,
+      "width": 200
+    },
+    "params": {
+      "text": "你好",
+      "textColor": "#000000",
+      "color": "#2345ab",
+      "alpha": 0.25
+    }
+  }
+  ]
+}

@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9245C7120D6CB3100A12365 /* IconViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9245C7020D6CB3100A12365 /* IconViewCell.m */; };
+		A9245C7420D6CD7D00A12365 /* ComplexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9245C7320D6CD7D00A12365 /* ComplexCell.m */; };
+		A96CEDCF20D77698009408D8 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CEDCE20D77698009408D8 /* UIColor+Hex.m */; };
+		A96CEDD220D7AA54009408D8 /* ComplexView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CEDD120D7AA54009408D8 /* ComplexView.m */; };
+		A9CA600A20D56BB2002BD543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA600920D56BB2002BD543 /* main.m */; };
+		A9CA600D20D56BB2002BD543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA600C20D56BB2002BD543 /* AppDelegate.m */; };
+		A9CA601320D56BB2002BD543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CA601120D56BB2002BD543 /* Main.storyboard */; };
+		A9CA601520D56BB2002BD543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CA601420D56BB2002BD543 /* Assets.xcassets */; };
+		A9CA601820D56BB2002BD543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CA601620D56BB2002BD543 /* LaunchScreen.storyboard */; };
+		A9CA602120D56BC7002BD543 /* ZhuDecorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA602020D56BC7002BD543 /* ZhuDecorViewController.m */; };
+		A9DE09A520D5FAE5000F2911 /* ZhuContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE09A420D5FAE5000F2911 /* ZhuContentView.m */; };
+		A9DE09A820D5FD4D000F2911 /* ZhuContentAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE09A720D5FD4D000F2911 /* ZhuContentAdapter.m */; };
+		A9DE09AE20D65E01000F2911 /* ZhuCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE09AD20D65E01000F2911 /* ZhuCustomCell.m */; };
+		A9DE09B120D6612D000F2911 /* ZhuCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE09B020D6612D000F2911 /* ZhuCustomView.m */; };
+		A9DE09BA20D675FD000F2911 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE09B920D675FD000F2911 /* UIButton+Block.m */; };
+		A9DE09C020D6BFEE000F2911 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE09BF20D6BFEE000F2911 /* LabelCell.m */; };
+		A9DE09C320D6C304000F2911 /* LabelCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE09C220D6C304000F2911 /* LabelCell2.m */; };
+		A9DE09C920D6C8CD000F2911 /* InputButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DE09C820D6C8CD000F2911 /* InputButtonCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9245C6F20D6CB3100A12365 /* IconViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconViewCell.h; sourceTree = "<group>"; };
+		A9245C7020D6CB3100A12365 /* IconViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconViewCell.m; sourceTree = "<group>"; };
+		A9245C7220D6CD7D00A12365 /* ComplexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexCell.h; sourceTree = "<group>"; };
+		A9245C7320D6CD7D00A12365 /* ComplexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplexCell.m; sourceTree = "<group>"; };
+		A96CEDCD20D77698009408D8 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		A96CEDCE20D77698009408D8 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		A96CEDD020D7AA54009408D8 /* ComplexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexView.h; sourceTree = "<group>"; };
+		A96CEDD120D7AA54009408D8 /* ComplexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplexView.m; sourceTree = "<group>"; };
+		A9CA600520D56BB2002BD543 /* ZhuDecorViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhuDecorViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA600920D56BB2002BD543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9CA600B20D56BB2002BD543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9CA600C20D56BB2002BD543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9CA601220D56BB2002BD543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9CA601420D56BB2002BD543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CA601720D56BB2002BD543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9CA601920D56BB2002BD543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CA601F20D56BC7002BD543 /* ZhuDecorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuDecorViewController.h; sourceTree = "<group>"; };
+		A9CA602020D56BC7002BD543 /* ZhuDecorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuDecorViewController.m; sourceTree = "<group>"; };
+		A9DE09A320D5FAE5000F2911 /* ZhuContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuContentView.h; sourceTree = "<group>"; };
+		A9DE09A420D5FAE5000F2911 /* ZhuContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuContentView.m; sourceTree = "<group>"; };
+		A9DE09A620D5FD4D000F2911 /* ZhuContentAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuContentAdapter.h; sourceTree = "<group>"; };
+		A9DE09A720D5FD4D000F2911 /* ZhuContentAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuContentAdapter.m; sourceTree = "<group>"; };
+		A9DE09AC20D65E01000F2911 /* ZhuCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuCustomCell.h; sourceTree = "<group>"; };
+		A9DE09AD20D65E01000F2911 /* ZhuCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuCustomCell.m; sourceTree = "<group>"; };
+		A9DE09AF20D6612D000F2911 /* ZhuCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuCustomView.h; sourceTree = "<group>"; };
+		A9DE09B020D6612D000F2911 /* ZhuCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuCustomView.m; sourceTree = "<group>"; };
+		A9DE09B820D675FD000F2911 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		A9DE09B920D675FD000F2911 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		A9DE09BE20D6BFEE000F2911 /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		A9DE09BF20D6BFEE000F2911 /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		A9DE09C120D6C304000F2911 /* LabelCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell2.h; sourceTree = "<group>"; };
+		A9DE09C220D6C304000F2911 /* LabelCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell2.m; sourceTree = "<group>"; };
+		A9DE09C720D6C8CD000F2911 /* InputButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputButtonCell.h; sourceTree = "<group>"; };
+		A9DE09C820D6C8CD000F2911 /* InputButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputButtonCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CA600220D56BB2002BD543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9CA5FFC20D56BB2002BD543 = {
+			isa = PBXGroup;
+			children = (
+				A9CA600720D56BB2002BD543 /* ZhuDecorViewController */,
+				A9CA600620D56BB2002BD543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9CA600620D56BB2002BD543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA600520D56BB2002BD543 /* ZhuDecorViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CA600720D56BB2002BD543 /* ZhuDecorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA600B20D56BB2002BD543 /* AppDelegate.h */,
+				A9CA600C20D56BB2002BD543 /* AppDelegate.m */,
+				A9DE09B820D675FD000F2911 /* UIButton+Block.h */,
+				A9DE09B920D675FD000F2911 /* UIButton+Block.m */,
+				A96CEDCD20D77698009408D8 /* UIColor+Hex.h */,
+				A96CEDCE20D77698009408D8 /* UIColor+Hex.m */,
+				A9CA601F20D56BC7002BD543 /* ZhuDecorViewController.h */,
+				A9CA602020D56BC7002BD543 /* ZhuDecorViewController.m */,
+				A9DE09A320D5FAE5000F2911 /* ZhuContentView.h */,
+				A9DE09A420D5FAE5000F2911 /* ZhuContentView.m */,
+				A9DE09A620D5FD4D000F2911 /* ZhuContentAdapter.h */,
+				A9DE09A720D5FD4D000F2911 /* ZhuContentAdapter.m */,
+				A9DE09AC20D65E01000F2911 /* ZhuCustomCell.h */,
+				A9DE09AD20D65E01000F2911 /* ZhuCustomCell.m */,
+				A9DE09AF20D6612D000F2911 /* ZhuCustomView.h */,
+				A9DE09B020D6612D000F2911 /* ZhuCustomView.m */,
+				A9DE09BE20D6BFEE000F2911 /* LabelCell.h */,
+				A9DE09BF20D6BFEE000F2911 /* LabelCell.m */,
+				A9DE09C120D6C304000F2911 /* LabelCell2.h */,
+				A9DE09C220D6C304000F2911 /* LabelCell2.m */,
+				A9DE09C720D6C8CD000F2911 /* InputButtonCell.h */,
+				A9DE09C820D6C8CD000F2911 /* InputButtonCell.m */,
+				A9245C6F20D6CB3100A12365 /* IconViewCell.h */,
+				A9245C7020D6CB3100A12365 /* IconViewCell.m */,
+				A9245C7220D6CD7D00A12365 /* ComplexCell.h */,
+				A9245C7320D6CD7D00A12365 /* ComplexCell.m */,
+				A96CEDD020D7AA54009408D8 /* ComplexView.h */,
+				A96CEDD120D7AA54009408D8 /* ComplexView.m */,
+				A9CA601120D56BB2002BD543 /* Main.storyboard */,
+				A9CA601420D56BB2002BD543 /* Assets.xcassets */,
+				A9CA601620D56BB2002BD543 /* LaunchScreen.storyboard */,
+				A9CA601920D56BB2002BD543 /* Info.plist */,
+				A9CA600820D56BB2002BD543 /* Supporting Files */,
+			);
+			path = ZhuDecorViewController;
+			sourceTree = "<group>";
+		};
+		A9CA600820D56BB2002BD543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA600920D56BB2002BD543 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9CA600420D56BB2002BD543 /* ZhuDecorViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CA601C20D56BB2002BD543 /* Build configuration list for PBXNativeTarget "ZhuDecorViewController" */;
+			buildPhases = (
+				A9CA600120D56BB2002BD543 /* Sources */,
+				A9CA600220D56BB2002BD543 /* Frameworks */,
+				A9CA600320D56BB2002BD543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhuDecorViewController;
+			productName = ZhuDecorViewController;
+			productReference = A9CA600520D56BB2002BD543 /* ZhuDecorViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CA5FFD20D56BB2002BD543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kb210;
+				TargetAttributes = {
+					A9CA600420D56BB2002BD543 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 373J463JBA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9CA600020D56BB2002BD543 /* Build configuration list for PBXProject "ZhuDecorViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9CA5FFC20D56BB2002BD543;
+			productRefGroup = A9CA600620D56BB2002BD543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9CA600420D56BB2002BD543 /* ZhuDecorViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9CA600320D56BB2002BD543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA601820D56BB2002BD543 /* LaunchScreen.storyboard in Resources */,
+				A9CA601520D56BB2002BD543 /* Assets.xcassets in Resources */,
+				A9CA601320D56BB2002BD543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9CA600120D56BB2002BD543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DE09A820D5FD4D000F2911 /* ZhuContentAdapter.m in Sources */,
+				A96CEDD220D7AA54009408D8 /* ComplexView.m in Sources */,
+				A9245C7420D6CD7D00A12365 /* ComplexCell.m in Sources */,
+				A9DE09C320D6C304000F2911 /* LabelCell2.m in Sources */,
+				A9DE09BA20D675FD000F2911 /* UIButton+Block.m in Sources */,
+				A96CEDCF20D77698009408D8 /* UIColor+Hex.m in Sources */,
+				A9DE09A520D5FAE5000F2911 /* ZhuContentView.m in Sources */,
+				A9DE09AE20D65E01000F2911 /* ZhuCustomCell.m in Sources */,
+				A9CA600D20D56BB2002BD543 /* AppDelegate.m in Sources */,
+				A9CA602120D56BC7002BD543 /* ZhuDecorViewController.m in Sources */,
+				A9CA600A20D56BB2002BD543 /* main.m in Sources */,
+				A9DE09C020D6BFEE000F2911 /* LabelCell.m in Sources */,
+				A9245C7120D6CB3100A12365 /* IconViewCell.m in Sources */,
+				A9DE09B120D6612D000F2911 /* ZhuCustomView.m in Sources */,
+				A9DE09C920D6C8CD000F2911 /* InputButtonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9CA601120D56BB2002BD543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CA601220D56BB2002BD543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9CA601620D56BB2002BD543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CA601720D56BB2002BD543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9CA601A20D56BB2002BD543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9CA601B20D56BB2002BD543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9CA601D20D56BB2002BD543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 373J463JBA;
+				INFOPLIST_FILE = ZhuDecorViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.uestc.ZhuDecorViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9CA601E20D56BB2002BD543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 373J463JBA;
+				INFOPLIST_FILE = ZhuDecorViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.uestc.ZhuDecorViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9CA600020D56BB2002BD543 /* Build configuration list for PBXProject "ZhuDecorViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA601A20D56BB2002BD543 /* Debug */,
+				A9CA601B20D56BB2002BD543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CA601C20D56BB2002BD543 /* Build configuration list for PBXNativeTarget "ZhuDecorViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA601D20D56BB2002BD543 /* Debug */,
+				A9CA601E20D56BB2002BD543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CA5FFD20D56BB2002BD543 /* Project object */;
+}

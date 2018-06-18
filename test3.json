@@ -1,0 +1,39 @@
+{
+  "type": "cell",
+  "name": "InputButtonCell",
+  "subviews": [
+  {
+    "type": "input",
+    "name": "mInput",
+    "layout": {
+      "left": 20,
+      "centerY": 0,
+      "width": 100
+    },
+    "params": {
+      "placeholder": "这是提示文本",
+      "text": "嘿嘿",
+      "textColor": "#544588",
+      "inputVisible": false
+    }
+  },
+  {
+    "type": "button",
+    "name": "mButton",
+    "layout": {
+      "left": 40,
+      "right": 40,
+      "top": 40,
+      "bottom": 40,
+      "height": 60
+    },
+    "params": {
+      "enabled": false,
+      "image": "",
+      "text": "嘿嘿",
+      "textColor": "#544588",
+      "textSize": 10
+    }
+  }
+  ]
+}

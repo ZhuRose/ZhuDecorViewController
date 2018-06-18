@@ -1,0 +1,22 @@
+{
+  "type": "cell",
+  "name": "LabelCell",
+  "subviews": [
+  {
+    "type": "label",
+    "name": "mLabel",
+    "layout": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "params": {
+      "text": "123",
+      "textSize": "20",
+      "textColor": "#ff0000",
+      "textAlign": "center"
+    }
+  }
+  ]
+}
